@@ -1,0 +1,21 @@
+ChatCompletion(id='chatcmpl-AvVMlMRjOs7SVkiwY38FRdgIBFFhb', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='La imagen muestra un planeador de color blanco con detalles en rojo, en pleno vuelo a baja altura sobre un campo de hierba. Se observan dos personas en la cabina del planeador, y el piloto parece estar usando una gorra. El planeador lleva una matrícula visible "EC-JEQ" en color rojo. En el fondo, se aprecia un paisaje montañoso ligeramente desenfocado, lo que sugiere que la foto fue tomada en un entorno natural. La superficie verde debajo del planeador sugiere que está volando cerca del suelo o en proceso de despegue o aterrizaje. Un cable de remolque es visible, lo que indica que el planeador está siendo lanzado o remolcado.', refusal=None, role='assistant', audio=None, function_call=None, tool_calls=None), content_filter_results={'hate': {'filtered': False, 'severity': 'safe'
+        }, 'protected_material_code': {'filtered': False, 'detected': False
+        }, 'protected_material_text': {'filtered': False, 'detected': False
+        }, 'self_harm': {'filtered': False, 'severity': 'safe'
+        }, 'sexual': {'filtered': False, 'severity': 'safe'
+        }, 'violence': {'filtered': False, 'severity': 'safe'
+        }
+    })
+], created=1738268631, model='gpt-4o-2024-08-06', object='chat.completion', service_tier=None, system_fingerprint='fp_f3927aa00d', usage=CompletionUsage(completion_tokens=151, prompt_tokens=1215, total_tokens=1366, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0)), prompt_filter_results=[
+    {'prompt_index': 0, 'content_filter_result': {'jailbreak': {'filtered': False, 'detected': False
+            }
+        }
+    },
+    {'prompt_index': 1, 'content_filter_result': {'sexual': {'filtered': False, 'severity': 'safe'
+            }, 'violence': {'filtered': False, 'severity': 'safe'
+            }, 'hate': {'filtered': False, 'severity': 'safe'
+            }, 'self_harm': {'filtered': False, 'severity': 'safe'
+            }
+        }
+    }
+])
