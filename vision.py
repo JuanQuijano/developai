@@ -10,17 +10,16 @@ client = AzureOpenAI(
 response = client.chat.completions.create(
     model="gpt-4o",
     messages=[
-        { "role": "system", "content": "Eres mi asistente personal." },
+        { "role": "system", "content": "You are a helpful assistant." },
         { "role": "user", "content": [  
             { 
                 "type": "text", 
-                "text": "Describe la siguiente imágen:" 
+                "text": "Describe this picture:" 
             },
             { 
                 "type": "image_url",
                 "image_url": {
-                    #"url": "https://www.nippon.com/es/ncommon/contents/japan-glances/2456656/2456656.jpg"
-                    "url": "https://aeroclubnimbus.aero/wp-content/uploads/2020/04/la.png"
+                    "url": ""
                 }
             }
         ] } 
